@@ -1,0 +1,59 @@
+/* src/Auth.css */
+.auth-container {
+    height: 100vh;
+    background: url('https://www.velocityconsultancy.com/wp-content/uploads/2021/08/cyber-security.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00eaff;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  
+  .auth-form h2 {
+    color: #00eaff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    background: #00eaff;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .auth-form button:hover {
+    background: #00b7cc;
+  }
+  
+  .auth-form p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .auth-form a {
+    color: #00eaff;
+    text-decoration: none;
+  }
+  
